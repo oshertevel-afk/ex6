@@ -1,3 +1,8 @@
+/* NAME: OSHER TEVEL
+ID: 212695522
+EX6
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "game.h"
