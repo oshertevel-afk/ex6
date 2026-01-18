@@ -455,4 +455,14 @@ void freeGame(GameState* g) {
 }
 
 /* String helpers */
-static const c
+static const char* itemTypeToString(ItemType t) {
+	return (t == ARMOR) ? "ARMOR" : "SWORD";
+}
+
+static const char* monsterTypeToString(MonsterType t) {
+	if (t == PHANTOM) return "Phantom";
+	if (t == SPIDER) return "Spider";
+	if (t == DEMON) return "Demon";
+	if (t == GOLEM) return "Golem";
+	return "Cobra";
+}
